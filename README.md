@@ -1,5 +1,10 @@
 # 仅个人兴趣学习使用
 用于学习了解UE引擎相关功能效果实现，复刻某些游戏功能效果等，属于一个大杂烩学习工程，遇到有意思的内容就在里面做做看当做个人积累
+本工程为C++开发工程，运行需要：
+- 安装或自行编译UE5.5
+- 安装VS2022
+- clone完成之后，右键MH_Try.uproject，使用UE自带的Generate Visual Studio project files，生成.sln
+- 打开.sln，选择Debug Game或Develop Game编译运行
 ## 内容包含（已经制作的内容，持续building中）：
 - 1.复刻Lyra高级运动系统(ALS)效果
   - locomotion四方向移动+motion wraping实现八方向效果
